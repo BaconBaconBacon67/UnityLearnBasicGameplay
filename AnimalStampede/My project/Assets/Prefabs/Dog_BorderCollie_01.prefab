@@ -2369,6 +2369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3418115713152763360}
   - component: {fileID: 7017078070036816822}
+  - component: {fileID: 522000397560908153}
   m_Layer: 0
   m_Name: SM_BorderCollie_01
   m_TagString: Untagged
@@ -2492,6 +2493,27 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000000055879354, y: -0.030785777, z: 0.08916274}
     m_Extent: {x: 0.04526128, y: 0.10259331, z: 0.13557574}
   m_DirtyAABB: 0
+--- !u!65 &522000397560908153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4321548599650333482}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09052256, y: 0.20518664, z: 0.27115148}
+  m_Center: {x: -0.000000005587936, y: 0.102593295, z: -0.002727747}
 --- !u!1 &4411757382459852900
 GameObject:
   m_ObjectHideFlags: 0
@@ -4472,6 +4494,8 @@ GameObject:
   - component: {fileID: 5483989950463154926}
   - component: {fileID: 2395975646355321435}
   - component: {fileID: 4780110387752976}
+  - component: {fileID: 409675836290603257}
+  - component: {fileID: 44269409639850726}
   m_Layer: 0
   m_Name: Dog_BorderCollie_01
   m_TagString: Untagged
@@ -4488,8 +4512,8 @@ Transform:
   m_GameObject: {fileID: 7567959648465324449}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -10, y: 0, z: 10}
-  m_LocalScale: {x: 9, y: 9, z: 9}
+  m_LocalPosition: {x: -10, y: 0, z: 10.308}
+  m_LocalScale: {x: 8.428299, y: 8.428299, z: 8.428299}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8225750626623513769}
@@ -4576,6 +4600,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61cab4a4b6ec8324a87bc294f8d4cc54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &409675836290603257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567959648465324449}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &44269409639850726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567959648465324449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe10ceb61819fe4fbc76072681bed88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7695414838552007049
